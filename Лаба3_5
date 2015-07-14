@@ -1,0 +1,22 @@
+<! DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () 
+{
+$("#img").mouseenter(function () 
+{
+$('#img').hide(); 
+});
+});
+</script>
+</head>
+<body>
+<p id="img">Красота.</p>
+<p id="img">Любезность.</p>
+<p id="img">Доброта.</p>
+<p id="img">Нежность.</p>
+</body>
+</html>
